@@ -6,14 +6,12 @@ The goal is to understand how Jenkins can dynamically spin up Docker containers 
 ## Project Overview
 
 Pipeline 1: Basic Docker Agent Pipeline
-A simple pipeline that uses a Node.js Docker image to execute a basic test step. This serves as a foundational example of how Jenkins can run jobs inside a Docker container using a single agent.
+A simple pipeline that uses a Node.js Docker image to execute a basic test step. 
 
 Pipeline 2: Multi-Agent, Multi-Stage Pipeline
 A more advanced pipeline that runs separate stages for frontend and backend in different Docker containers:
 - **Backend**: Simulated using a Python container.
 - **Frontend**: Simulated using an NGINX container.
-
-This setup demonstrates Jenkins ability to use stage-specific agents and reflects real-world CI/CD patterns for microservices and multi-component applications.
 
 ## Tools & Technologies
 - Jenkins
